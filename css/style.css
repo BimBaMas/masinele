@@ -1,0 +1,38 @@
+#masinele {
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+#zona {
+  position: relative;
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blokas {
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.kuras {
+  position: relative;
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  color: chartreuse;
+}

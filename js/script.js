@@ -91,7 +91,7 @@ function blokai(n) {
     do {
       x = Math.floor(Math.random() * 15) * 40;
       y = Math.floor(Math.random() * 15) * 40;
-    } while (toksJauYra(x, y) || (x == 0 && y == 0));
+    } while (toksJauYra(x, y) || (x == koordinateX && y == koordinateY));
     kliutysX[kliutysX.length] = x;
     kliutysY[kliutysY.length] = y;
     naujasBlokas(x, y, "blokas");
